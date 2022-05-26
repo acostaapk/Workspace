@@ -5,7 +5,7 @@ body{
     margin:auto
 }
 #title, .subtitle, .post_title{
-    color: rgb(15, 15, 26);
+    color: rgb(54, 54, 56);
 }
 #title {
     font-size: 40px;
