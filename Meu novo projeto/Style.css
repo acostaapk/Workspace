@@ -18,7 +18,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    filter: grayscale(0.5);
+    filter: grayscale(0.7);
     color: white;
     cursor: pointer;
     transition: 0,3s;
@@ -31,15 +31,24 @@ body{
     align-items: center;
     position: relative;
 }
-.card-wrapper ::before {
-    content '':
+.card-wrapper::before {
+    content '';
     position: absolute;
-    heigth: 100px;
+    height: 100px;
     width: 100px;
     display: block;
-    border: 1px solidcolor white;
-
-
-
-
+    border: 1px solid white;
+}
+.card-wrapper h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin: 0;
+    transition: 0.3s;
+}
+.card-wrapper p {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.3s;
 }
