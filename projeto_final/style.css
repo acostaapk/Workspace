@@ -225,7 +225,7 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    filter: grayscale(0.7);
+    filter: grayscale(0.8);
     color: white;
     cursor: pointer;
     transition: 0.3s;
@@ -265,17 +265,16 @@ a:hover {
     letter-spacing: 4px;
     margin: 0;
     transition: 0.3s;
-    text-shadow: 0 0 0.2em #ffac27, 0 0 0.2em #ffac27, 0 0 0.2em #ffac27;
+    text-shadow: 0 0 0.4em #ff2108, 0 0 0.4em #ff2108, 0 0 0.4em #ff2108, 0 0 0.4em #ff2108;
 }
 
 .card-wrapper p {
-    font-size: 25px;
+    font-size: 0;
     visibility: hidden;
     opacity: 0;
-    font-weight: bold;
     text-transform: uppercase;
     transition: 0.3s;
-    text-shadow: 0 0 0.2em #ffac27, 0 0 0.2em #ffac27, 0 0 0.2em #ffac27, 0 0 0.2em #ffac27;
+    text-shadow: 0 0 0.4em #ff2108, 0 0 0.4em #ff2108, 0 0 0.4em #ff2108, 0 0 0.4em #ff2108;
 }
 
 .card:hover {
@@ -291,7 +290,8 @@ a:hover {
 .card:hover > .card-wrapper p {
     opacity: 1;
     visibility: visible;
-    font-size: 14px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 /* FOOTER */
