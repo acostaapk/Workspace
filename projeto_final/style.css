@@ -23,6 +23,7 @@ body {
 }
 
 h1 {
+    font-size: 50px;
     text-transform: uppercase;
     letter-spacing: 4px;
 }
@@ -224,7 +225,7 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    filter: grayscale(0.5);
+    filter: grayscale(0.7);
     color: white;
     cursor: pointer;
     transition: 0.3s;
@@ -259,20 +260,22 @@ a:hover {
 }
 
 .card-wrapper h2 {
-    font-size: 40px;
+    font-size: 50px;
     text-transform: uppercase;
     letter-spacing: 4px;
     margin: 0;
     transition: 0.3s;
+    text-shadow: 0 0 0.2em #ffac27, 0 0 0.2em #ffac27, 0 0 0.2em #ffac27;
 }
 
 .card-wrapper p {
-    font-size: 0;
+    font-size: 25px;
     visibility: hidden;
     opacity: 0;
     font-weight: bold;
     text-transform: uppercase;
     transition: 0.3s;
+    text-shadow: 0 0 0.2em #ffac27, 0 0 0.2em #ffac27, 0 0 0.2em #ffac27, 0 0 0.2em #ffac27;
 }
 
 .card:hover {
@@ -298,6 +301,8 @@ a:hover {
     height: 100px;
     background-color: #1fa194;
     font-size: 20px;
+    font-weight: bolder;
+    letter-spacing: 2px;
     display: flex;
     justify-content: center;
     align-items: center;
